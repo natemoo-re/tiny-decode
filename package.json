@@ -2,7 +2,7 @@
   "name": "tiny-decode",
   "type": "module",
   "version": "0.1.0",
-  "description": "",
+  "description": "Decode HTML entities the browser-friendly way",
   "exports": {
     ".": {
       "types": "./index.d.ts",
