@@ -1,14 +1,15 @@
 {
   "name": "tiny-decode",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Decode HTML entities the browser-friendly way",
   "exports": {
     ".": {
       "types": "./index.d.ts",
+      "browser": "./browser.mjs",
       "import": "./node.mjs",
       "require": "./node.cjs",
-      "browser": "./browser.mjs"
+      "default": "./node.mjs"
     }
   },
   "repository": {
