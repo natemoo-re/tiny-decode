@@ -1,0 +1,32 @@
+{
+  "name": "tiny-decode",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./node.mjs",
+      "require": "./node.cjs",
+      "browser": "./browser.mjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natemoo-re/tiny-decode.git"
+  },
+  "keywords": [
+    "html",
+    "entities",
+    "decode"
+  ],
+  "author": "Nate Moore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natemoo-re/tiny-decode/issues"
+  },
+  "homepage": "https://github.com/natemoo-re/tiny-decode#readme",
+  "dependencies": {
+    "entities": "^4.4.0"
+  }
+}
